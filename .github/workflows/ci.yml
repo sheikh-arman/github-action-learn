@@ -1,4 +1,4 @@
-name: "Workflow example"
+name: "Workflowample"
 on:
   schedule:
     - cron: '*/1 * * * *'
