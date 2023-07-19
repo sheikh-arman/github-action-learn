@@ -1,12 +1,12 @@
 name: "Workflowample"
 on:
   schedule:
-    - cron: '*/1 * * * *'
+  - cron: '*/6 * * * *'
 
 jobs:
   hello:
     name: "Say hello"
     runs-on: ubuntu-latest
     steps:
-      - name: Display message
-        run: echo "Hello from GitHub Actions!"
+    - name: Display message
+      run: echo "Hello from GitHub Actions!"
